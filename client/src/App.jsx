@@ -35,7 +35,7 @@ function App() {
   const [stripeApiKey, setStripeApiKey] = useState("");
 
   const getStripeApiKey = async () => {
-    const { data } = await axios.get(`http://localhost:8000/api/v1/stripeapikey`);
+    const { data } = await axios.get(`https://ekart-sever.onrender.com/api/v1/stripeapikey`);
     setStripeApiKey(data.stripeApikey);
   }
 
