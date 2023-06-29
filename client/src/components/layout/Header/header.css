@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.cart {
+  position: fixed;
+  right: 8vmax;
+  top: 4vmax;
+  z-index: 11;
+  cursor: pointer;
+}
+
+.badge {
+  position: "fixed";
+  right: "8vmax";
+  top: "6vmax";
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive {
+    display: flex;
+    flex-direction: column;
+  }
+}
